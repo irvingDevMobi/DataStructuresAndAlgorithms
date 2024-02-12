@@ -1,7 +1,11 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import c14.sortingAlgorithms.bubbleSort
+import utils.example
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun main() {
+    "bubble sort" example {
+        val list = arrayListOf(9, 4, 10, 3)
+        println("Original: $list")
+        list.bubbleSort(true)
+        println("Bubble sorted: $list")
+    }
 }
