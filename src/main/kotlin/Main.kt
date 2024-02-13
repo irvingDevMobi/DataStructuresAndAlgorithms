@@ -1,4 +1,5 @@
 import c14.sortingAlgorithms.bubbleSort
+import c14.sortingAlgorithms.insertionSort
 import c14.sortingAlgorithms.selectionSort
 import utils.example
 
@@ -13,6 +14,12 @@ fun main() {
         val list = arrayListOf(9, 4, 10, 3)
         println("Original: $list")
         list.selectionSort(true)
-        println("Bubble sorted: $list")
+        println("Selection sorted: $list")
+    }
+    "insertion sort" example {
+        val list = arrayListOf(9, 4, 10, 3)
+        println("Original: $list")
+        list.insertionSort(true)
+        println("Insertion sorted: $list")
     }
 }
