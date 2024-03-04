@@ -2,7 +2,7 @@ package c14.sortingAlgorithms
 
 import utils.swapAt
 
-fun <T : Comparable<T>> ArrayList<T>.bubbleSort(
+fun <T : Comparable<T>> MutableList<T>.bubbleSort(
     showPasses: Boolean = false
 ) {
     if (this.size < 2) return

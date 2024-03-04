@@ -2,7 +2,7 @@ package c14.sortingAlgorithms
 
 import utils.swapAt
 
-fun <T:Comparable<T>> ArrayList<T>.insertionSort(
+fun <T:Comparable<T>> MutableList<T>.insertionSort(
     showPasses: Boolean = false
 ) {
     if (this.size < 2) return
