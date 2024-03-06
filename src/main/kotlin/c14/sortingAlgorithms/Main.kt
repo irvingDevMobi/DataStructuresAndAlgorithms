@@ -1,4 +1,5 @@
-import c14.sortingAlgorithms.*
+package c14.sortingAlgorithms
+
 import utils.example
 
 fun main() {
